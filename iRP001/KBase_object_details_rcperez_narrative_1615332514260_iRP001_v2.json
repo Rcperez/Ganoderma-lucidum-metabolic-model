@@ -1,0 +1,95 @@
+{
+    "metadata": [
+        [
+            6,
+            "iRP001",
+            "KBaseFBA.FBAModel-12.0",
+            "2021-03-10T01:39:21+0000",
+            2,
+            "rcperez",
+            85472,
+            "rcperez:narrative_1615332514260",
+            "3c3b128a266675ac2e18007253f6e1fa",
+            4557059,
+            {
+                "Genome": "85472/2/1",
+                "Name": "Ganoderma sp.",
+                "Number biomasses": "1",
+                "Number compartments": "11",
+                "Number compounds": "9220",
+                "Number gapfills": "1",
+                "Number gapgens": "0",
+                "Number reactions": "814",
+                "Source": "KBase",
+                "Source ID": "FungalTemplate",
+                "Type": "FungalGenomeScale"
+            }
+        ]
+    ],
+    "provenance": [
+        {
+            "copy_source_inaccessible": 0,
+            "created": "2021-03-10T01:39:19+0000",
+            "creator": "rcperez",
+            "epoch": 1615340359790,
+            "extracted_ids": {},
+            "info": [
+                6,
+                "iRP001",
+                "KBaseFBA.FBAModel-12.0",
+                "2021-03-10T01:39:21+0000",
+                2,
+                "rcperez",
+                85472,
+                "rcperez:narrative_1615332514260",
+                "3c3b128a266675ac2e18007253f6e1fa",
+                4557059,
+                {
+                    "Genome": "85472/2/1",
+                    "Name": "Ganoderma sp.",
+                    "Number biomasses": "1",
+                    "Number compartments": "11",
+                    "Number compounds": "9220",
+                    "Number gapfills": "1",
+                    "Number gapgens": "0",
+                    "Number reactions": "814",
+                    "Source": "KBase",
+                    "Source ID": "FungalTemplate",
+                    "Type": "FungalGenomeScale"
+                }
+            ],
+            "orig_wsid": 85472,
+            "path": [
+                "85472/6/2"
+            ],
+            "provenance": [
+                {
+                    "custom": {},
+                    "external_data": [],
+                    "input_ws_objects": [],
+                    "method": "gapfill_metabolic_model",
+                    "method_params": [
+                        {
+                            "custom_bound_list": [],
+                            "fbamodel_id": "iRP001",
+                            "fbamodel_output_id": "iRP001",
+                            "feature_ko_list": [],
+                            "media_supplement_list": [],
+                            "minimum_target_flux": 0.1,
+                            "reaction_ko_list": [],
+                            "target_reaction": "bio1",
+                            "workspace": "rcperez:narrative_1615332514260"
+                        }
+                    ],
+                    "resolved_ws_objects": [],
+                    "service": "fba_tools",
+                    "subactions": []
+                }
+            ],
+            "refs": [
+                "85472/2/1",
+                "262/34/1"
+            ]
+        }
+    ]
+}
